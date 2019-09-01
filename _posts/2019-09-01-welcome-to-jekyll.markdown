@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to Ubi Snippets!"
 date:   2019-09-01 00:16:40 -0300
 categories: blog
 ---
