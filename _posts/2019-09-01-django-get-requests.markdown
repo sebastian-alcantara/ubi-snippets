@@ -9,8 +9,6 @@ Hi there!
 
 Lets say you want to send a `GET` request to a Django based server, and you want to use vanilla `JavaScript`. You don't want to use jQuery, nor any other framework.
 
-
-<br/>
 ### The HTML:
 
 So, lets say you have a Django app called test_app, with a js script called "get_example.js" in its static folder.
@@ -34,8 +32,6 @@ We want the server to return a message when this button is clicked, so we write 
 
 I use the `defer` attribute here to make sure the script is run after the page has finished parsing. By using `defer`, we avoid having to wrap all the script in a `DOMContentLoaded` event listener.
 
-
-<br/>
 ### The JavaScript:
 
 Next, lets write the `JavaScript` code to listen for the click and to send the `GET` request. Lets say we want to ask the server for the last name associated to the first name that was in the button and replace the text in said button with it:
@@ -65,8 +61,6 @@ Then, `+ awesome_name` puts the value of the awesome_name variable to the reques
 
 So, when we clic the button, that GET request will be sent to `users/who?fname=Peter`.
 
-
-<br/>
 ### The Python:
 
 The Python code for the Django `urls.py` file should be something like:
