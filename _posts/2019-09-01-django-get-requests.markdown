@@ -102,10 +102,10 @@ def get_last_name_view(request):
     return JsonResponse(response_data, safe=False)
 {% endhighlight %}
 
-Of course the else statement will never be run in this example, but I like to be explicit about if statements.
+In this example, the else statement will never be run. But I like to be explicit about if statements.
 
 Here, in `fname=request.GET.get('fname')`, we take the value of `fname` sent in the request, and assign it to the fname Python variable.
-Next, we check if it is 'Peter' and if so, we put the last name 'Pan' it in a response_data dictionary that we return with JsonResponse (with the key "lname").
+Next, we check if it is 'Peter' and if so, we put the last name 'Pan' in a response_data dictionary that we finally return with JsonResponse (with the key "lname").
 
 That way, our JavasCript code can access this information once we parse the response with `JSON.parse` as shown above.
 
