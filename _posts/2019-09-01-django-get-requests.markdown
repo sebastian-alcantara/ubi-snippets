@@ -3,11 +3,14 @@ layout: post
 title:  "Sending AJAX GET requests to a Django server without jQuery"
 date:   2019-09-01 9:16:40 -0300
 categories: blog
+excerpt_separator: <!--more-->
 ---
 
 Hi there!
 
 Lets say you want to send a `GET` request to a Django based server, and you want to use vanilla `JavaScript`. You don't want to use jQuery, nor any other framework.
+
+<!--more-->
 
 ### The HTML:
 
