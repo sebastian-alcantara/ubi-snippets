@@ -16,10 +16,8 @@
 title: Ubi Snippets
 email: sebastian.h.alcantara@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Hi there. I'm Sebastián Alcántara, a chemical engineer with a love for
-  coding, game design, gaming and maybe some exercise.
-  In this blog I will share little bits of info that I find to be interesting
-  about any of this topics.
+  Sebastián Alcántara's blog about coding, game design, gaming and maybe some
+  exercise.
 baseurl: "/ubi-snippets" # the subpath of your site, e.g. /blog
 url: "http://sebastian-alcantara.github.io/ubi-snippets" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: SebastAlcantara
