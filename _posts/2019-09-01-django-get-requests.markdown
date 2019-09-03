@@ -4,6 +4,8 @@ title:  "Sending AJAX GET requests to a Django server without jQuery"
 date:   2019-09-01 9:16:40 -0300
 categories: blog
 excerpt_separator: <!--more-->
+keywords:
+  - django
 ---
 
 Hi there!
