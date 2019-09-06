@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   exercise.
 baseurl: "/ubi-snippets" # the subpath of your site, e.g. /blog
 #url: "http://sebastian-alcantara.github.io/ubi-snippets" # the base hostname & protocol for your site, e.g. http://example.com
-url: "https://sebastianalcantara.com.ar/ubi-snippets"
+url: "https://sebastianalcantara.com.ar"
 twitter_username: SebastAlcantara
 github_username:  sebastian-alcantara
 
