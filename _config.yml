@@ -19,7 +19,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Sebastián Alcántara's blog about coding, game design, gaming and maybe some
   exercise.
 baseurl: "/ubi-snippets" # the subpath of your site, e.g. /blog
-url: "http://sebastian-alcantara.github.io/ubi-snippets" # the base hostname & protocol for your site, e.g. http://example.com
+#url: "http://sebastian-alcantara.github.io/ubi-snippets" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://sebastianalcantara.com.ar/ubi-snippets"
 twitter_username: SebastAlcantara
 github_username:  sebastian-alcantara
 
